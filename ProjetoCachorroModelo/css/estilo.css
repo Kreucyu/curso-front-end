@@ -1,0 +1,18 @@
+.backgroundPage {
+  background-color: #f2e6c7;
+}
+
+.imgCapa {
+  display: inline-block;
+  text-align: center;
+
+  border: 5px groove black;
+  box-sizing: border-box;
+}
+
+#imgHome {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+}
