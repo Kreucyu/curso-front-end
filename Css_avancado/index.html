@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barra de Seleção</title>
+  <style>
+    /* Estilo geral */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container principal */
+    .menu {
+      display: flex;
+      background-color: #333;
+      padding: 10px;
+    }
+
+    /* Estilo das categorias */
+    .menu-item {
+      position: relative; /* Necessário para o dropdown */
+      margin-right: 20px;
+    }
+
+    .menu-item a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      display: block;
+    }
+
+    .menu-item a:hover {
+      background-color: #555;
+    }
+
+    /* Submenu escondido */
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%; /* Alinha logo abaixo da categoria */
+      left: 0;
+      background-color: #444;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .submenu li {
+      margin: 0;
+    }
+
+    .submenu a {
+      padding: 10px 20px;
+      white-space: nowrap;
+    }
+
+    .submenu a:hover {
+      background-color: #666;
+    }
+
+    /* Exibir submenu ao passar o mouse */
+    .menu-item:hover .submenu {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <nav class="menu">
+    <div class="menu-item">
+      <a href="#">Categoria 1</a>
+      <ul class="submenu">
+        <li><a href="#">Opção 1</a></li>
+        <li><a href="#">Opção 2</a></li>
+        <li><a href="#">Opção 3</a></li>
+      </ul>
+    </div>
+    <div class="menu-item">
+      <a href="#">Categoria 2</a>
+      <ul class="submenu">
+        <li><a href="#">Opção A</a></li>
+        <li><a href="#">Opção B</a></li>
+      </ul>
+    </div>
+    <div class="menu-item">
+        <a href="#">Categoria 3</a>
+        <ul class="submenu">
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+        </ul>
+      </div>
+  </nav>
+</body>
+</html>

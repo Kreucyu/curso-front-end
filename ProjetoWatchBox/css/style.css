@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Codec';
+    src: url(../fonts/Codec-Cold-Light-trial.woff);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.titulo {
+float: left;
+padding: 15px 60px 15px 100px;
+background: #131313;
+}
+
+#logo {
+    width: 70px
+}
+
+ul#icones {
+    list-style: none;
+    background: #131313;
+    display: flex;
+}
+
+ul#icones li {
+    padding: 0px 15px;
+    display: flex;
+
+}
+
+ul#icones a{
+    display: block;
+    padding: 0px 2em;
+    line-height: 4em;
+    text-decoration: none;
+    color: #5e17eb;
+    font-family: 'Codec';
+    font-weight: bold;
+}
+
+ul#icones a:hover {
+    color: white;
+    background-color:#5e17eb;
+}
+
+.barraLateral {
+    clear: both;
+    border: 1px solid green;
+    float: left;
+    width: 300px;
+    padding: 0px 0px 40px 0px;
+    }
+
+.conteudos {
+    border: 1px solid blue;
+    float: left;
+    
+}
+
+.conteudo1 {
+    border: 1px solid purple;
+    float: left;
+    width: 300px;
+    padding: 0px 0px 40px 0px;
+}
+
+.conteudo2 {
+    border: 1px solid yellow;
+    float: right;
+    width: 300px;
+    padding: 0px 0px 40px 0px;
+}
+.rodape {
+border: 1px solid black;
+clear: both;
+
+}
+
+.teste {
+border: 1px solid red;
+}
