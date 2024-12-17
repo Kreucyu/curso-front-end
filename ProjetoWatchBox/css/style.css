@@ -2,26 +2,44 @@
     font-family: 'Codec';
     src: url(../fonts/Codec-Cold-Light-trial.woff);
 }
+@font-face {
+    font-family: 'Shrikhand';
+    src: url(../fonts/Shrikhand-Regular.woff);
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Codec';
+}
 
 * {
     margin: 0px;
     padding: 0px;
 }
-
-
 .titulo {
 float: left;
 padding: 15px 60px 15px 100px;
-background: #131313;
+background: rgba(19, 19, 19, 0.6);
 }
 
 #logo {
-    width: 70px
+    display: block;
+    text-decoration: none;
+    color: #5e17eb;
+    font-family: 'Shrikhand';
+    font-size: 23.1px;
+    margin: 0px;
+    font-weight: 200;
+}
+
+#logo:hover {
+    color: white;
 }
 
 ul#icones {
     list-style: none;
-    background: #131313;
+    background: rgba(19, 19, 19, 0.6);
     display: flex;
 }
 
@@ -46,17 +64,54 @@ ul#icones a:hover {
     background-color:#5e17eb;
 }
 
+
+ul#lateral {
+    list-style: none;
+    background: black;
+}
+
+ul#lateral li {
+    padding-left: 15px;
+
+}
+
+ul#lateral a{
+    line-height: 3em;
+    text-decoration: none;
+    color: #5e17eb;
+    font-family: 'Codec';
+    font-weight: bold;
+}
+
+ul#lateral a:hover {
+    color: white;
+    background-color:#5e17eb;
+    padding: 1px;
+}
+
+h2#plataformas {
+    background: rgba(19, 19, 19, 0.6);
+    color: #5e17eb;
+    padding-left: 15px;
+}
+
+
+
 .barraLateral {
     clear: both;
-    border: 1px solid green;
+    background: black;
     float: left;
     width: 300px;
-    padding: 0px 0px 40px 0px;
+    margin-top: 6em;
+    margin-left: 6em;
+    color: white;
     }
 
 .conteudos {
     border: 1px solid blue;
     float: left;
+    color: white;
+    margin-right: 6em;
     
 }
 
@@ -64,7 +119,8 @@ ul#icones a:hover {
     border: 1px solid purple;
     float: left;
     width: 300px;
-    padding: 0px 0px 40px 0px;
+    padding: 0px 0px 40px 120px;
+    color: white;
 }
 
 .conteudo2 {
@@ -72,10 +128,17 @@ ul#icones a:hover {
     float: right;
     width: 300px;
     padding: 0px 0px 40px 0px;
+    color: white;
 }
 .rodape {
-border: 1px solid black;
-clear: both;
+    background: rgba(19, 19, 19, 0.6);
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    clear: both;
+    color: white;
+   margin-top: 1000px;
+
 
 }
 
