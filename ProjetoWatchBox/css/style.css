@@ -19,8 +19,8 @@ body {
 }
 .titulo {
 float: left;
-padding: 15px 60px 15px 100px;
-background: rgba(19, 19, 19, 0.6);
+padding: 15px 60px 15px 110px;
+background: #0B0B0B;
 }
 
 #logo {
@@ -39,7 +39,7 @@ background: rgba(19, 19, 19, 0.6);
 
 ul#icones {
     list-style: none;
-    background: rgba(19, 19, 19, 0.6);
+    background: #0B0B0B;
     display: flex;
 }
 
@@ -56,7 +56,6 @@ ul#icones a{
     text-decoration: none;
     color: #5e17eb;
     font-family: 'Codec';
-    font-weight: bold;
 }
 
 ul#icones a:hover {
@@ -76,32 +75,102 @@ ul#lateral li {
 }
 
 ul#lateral a{
-    line-height: 3em;
+    line-height: 2.5em;
     text-decoration: none;
     color: #5e17eb;
     font-family: 'Codec';
-    font-weight: bold;
 }
 
 ul#lateral a:hover {
     color: white;
-    background-color:#5e17eb;
-    padding: 1px;
+    padding: 0px;
 }
 
 h2#plataformas {
-    background: rgba(19, 19, 19, 0.6);
+    background: #0B0B0B;
     color: #5e17eb;
+    padding: 10px 15px;
+}
+
+h2#notificar {
+    background-color: #0B0B0B;
+    color: #5e17eb;
+    padding: 10px 15px;
+}
+
+p#info {
+    color: #5e17eb;
+    font-family: 'Codec';
+    padding: 10px 15px;
+}
+
+div label {
+    color: #5e17eb;
+    font-family: 'Codec';
     padding-left: 15px;
+    padding-top: 10px;
+}
+
+div input {
+    background-color: #0B0B0B;
+    color: #5e17eb;
+    display: block;
+    margin: 5px 0px 5px 15px;
+    padding: 3px 30px 3px 5px;
+    border: none;
+}
+
+div input:hover {
+    background-color: #0B0B0B;
+    color: #5e17eb;
+    border: none;
+    border: 2px solid #5e17eb;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+legend {
+    color: #5e17eb;
+    font-family: 'Codec';
+    padding-left: 15px;
+    padding-top: 5px;
+
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px  #0B0B0B inset;
+    -webkit-text-fill-color: #5e17eb;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border: 2px solid #5e17eb;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 
+.submit {
+    background-color: #0B0B0B;
+    color: #5e17eb;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: #5e17eb;
+}
 
 .barraLateral {
     clear: both;
     background: black;
     float: left;
-    width: 300px;
+    width: 230px;
     margin-top: 6em;
     margin-left: 6em;
     color: white;
@@ -131,7 +200,7 @@ h2#plataformas {
     color: white;
 }
 .rodape {
-    background: rgba(19, 19, 19, 0.6);
+    background: #0B0B0B;
     text-align: center;
     margin: 0px;
     padding: 5px;
