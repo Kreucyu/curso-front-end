@@ -3,6 +3,10 @@
     src: url(../fonts/Codec-Cold-Light-trial.woff);
 }
 @font-face {
+    font-family: 'Codec Pro';
+    src: url(../fonts/CodecPro-Light.woff);
+}
+@font-face {
     font-family: 'Shrikhand';
     src: url(../fonts/Shrikhand-Regular.woff);
 }
@@ -11,6 +15,7 @@
 body {
     background-color: black;
     font-family: 'Codec';
+    font-weight: 500;
 }
 
 * {
@@ -56,6 +61,7 @@ ul#icones a{
     text-decoration: none;
     color: #5e17eb;
     font-family: 'Codec';
+    font-weight: 100;
 }
 
 ul#icones a:hover {
@@ -77,43 +83,46 @@ ul#lateral li {
 ul#lateral a{
     line-height: 2.5em;
     text-decoration: none;
-    color: #5e17eb;
+    color: white;
     font-family: 'Codec';
+    font-weight: 100;
 }
 
 ul#lateral a:hover {
-    color: white;
+    color: #5e17eb;
     padding: 0px;
 }
 
 h2#plataformas {
-    background: #0B0B0B;
+    background: black;
     color: #5e17eb;
     padding: 10px 15px;
 }
 
 h2#notificar {
-    background-color: #0B0B0B;
+    background-color: black;
     color: #5e17eb;
     padding: 10px 15px;
 }
 
 p#info {
-    color: #5e17eb;
+    color: white;
     font-family: 'Codec';
     padding: 10px 15px;
+    font-weight: 100;
 }
 
 div label {
-    color: #5e17eb;
+    color: white;
     font-family: 'Codec';
     padding-left: 15px;
     padding-top: 10px;
+    font-weight: 100;
 }
 
 div input {
     background-color: #0B0B0B;
-    color: #5e17eb;
+    color: white;
     display: block;
     margin: 5px 0px 5px 15px;
     padding: 3px 30px 3px 5px;
@@ -122,11 +131,8 @@ div input {
 
 div input:hover {
     background-color: #0B0B0B;
-    color: #5e17eb;
+    color: white;
     border: none;
-    border: 2px solid #5e17eb;
-    border-radius: 4px;
-    box-sizing: border-box;
 }
 
 legend {
@@ -134,26 +140,18 @@ legend {
     font-family: 'Codec';
     padding-left: 15px;
     padding-top: 5px;
+    font-weight: 100;
 
 }
 
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px  #0B0B0B inset;
-    -webkit-text-fill-color: #5e17eb;
-    box-sizing: border-box;
+    -webkit-text-fill-color: white;
 }
-
-input:focus, textarea:focus, select:focus {
-    outline: none;
-    border: 2px solid #5e17eb;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
 
 .submit {
     background-color: #0B0B0B;
-    color: #5e17eb;
+    color: white;
     font-weight: 100;
     font-size: 16px;
     padding: 4px;
@@ -161,56 +159,87 @@ input:focus, textarea:focus, select:focus {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    color: white;
-    background-color: #5e17eb;
-}
-
 .barraLateral {
     clear: both;
     background: black;
     float: left;
-    width: 230px;
-    margin-top: 6em;
+    width: 250px;
+    margin-top: 5em;
     margin-left: 6em;
     color: white;
     }
 
-.conteudos {
-    border: 1px solid blue;
-    float: left;
-    color: white;
-    margin-right: 6em;
-    
-}
-
 .conteudo1 {
-    border: 1px solid purple;
     float: left;
-    width: 300px;
-    padding: 0px 0px 40px 120px;
+    width: 750px;
+    margin: 5em 6em 0em 2.5em;
     color: white;
 }
 
 .conteudo2 {
-    border: 1px solid yellow;
-    float: right;
-    width: 300px;
-    padding: 0px 0px 40px 0px;
+    float: left;
+    width: 250px;
+    margin: 5em 2em 0em 0em;
     color: white;
 }
+
+#trailers {
+    color: #5e17eb;
+    padding: 10px 15px; 
+}
+
+.titulos {
+    color: #5e17eb;
+    padding: 10px 15px 5px 0px;
+}
+
+.sub {
+    color: #5e17eb;
+    padding-bottom: 15px;
+}
+
+.subN {
+    color: #5e17eb;
+    padding-bottom: 15px;
+    font-family: 'Codec Pro';
+}
+
+.textos {
+   padding-bottom: 10px;
+   text-align: justify;
+}
+
+.textosN {
+    padding-bottom: 10px;
+    font-family: 'Codec Pro';
+ }
+
+.imagens {
+    width: 750px;
+}
+
 .rodape {
     background: #0B0B0B;
     text-align: center;
-    margin: 0px;
     padding: 5px;
     clear: both;
     color: white;
-   margin-top: 1000px;
-
-
+    bottom: 0;
+    font-family: 'Codec Pro';
 }
 
-.teste {
-border: 1px solid red;
+.email {
+    display: inline;
+    padding-right: 31em;
 }
+
+.direitos {
+    display: inline;
+    text-align: center;
+}
+
+.telefone {
+    display: inline;
+    padding-left: 31em;
+}
+
