@@ -38,11 +38,42 @@ ul#barraMenu {
     padding: 40px 0px 0px 120px;
 }
 
-ul li {
-    display: block;
+ul#barraMenu li {
+    display: flex;
     font-size: 20px;
     line-height: 2.7em;
     color: #5c7388;
+}
+
+ul#barraMenu a {
+    display: flex;
+    text-decoration: none;
+    color: #5c7388;
+}
+
+ul#barraMenu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    padding-left: 15px;
+}
+
+#serv {
+    padding-left: 40px;
+}
+
+#ctt {
+    padding-left: 70px;
+}
+
+#sbn {
+    padding-left: 100px;
+}
+
+#fb {
+    padding-left: 130px;
 }
 
 body {
