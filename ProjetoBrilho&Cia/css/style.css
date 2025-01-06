@@ -8,6 +8,10 @@
     padding: 0px;
 }
 
+#container {
+    min-width: 720px;
+}
+
 #imgCapa {
     width: 100%;
     height: 350px;
@@ -54,7 +58,7 @@ body {
 #conteudo-fundo {
     background-color: #d3dfe7;
     width: 66%;
-    height: 1000px;
+    height: 1130px;
     float: left;
     margin-left: 3%;
     margin-top: 360px;
@@ -64,7 +68,7 @@ body {
 #servicos {
     background-color: #c1cede;
     width: 28%;
-    height: 1000px;
+    height: 1130px;
     margin-top: 360px;
     float: right;
     margin-right: 3%;
@@ -76,7 +80,7 @@ body {
 }
 
 h1 {
-    color:white;
+    color: #556B7F;
     font-family: 'Playpen';
     font-weight: 100;
     text-align: center;
@@ -89,5 +93,34 @@ p {
     padding-right: 2em;
     line-height: 1.5em;
     padding-bottom: 0.7em;
+    color: #556B7F;
 }
+
+.imgp {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.img {
+    width: 90%;
+}
+
+h2 {
+    padding-left: 0.7em;
+    font-size: 21px;
+    color: #556B7F;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+}
+
+.botoes {
+    text-decoration: none;
+    color:#3A6EA5;
+}
+
+.botoes:hover {
+    color: white;
+}
+
+
 
