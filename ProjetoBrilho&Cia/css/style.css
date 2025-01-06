@@ -107,7 +107,27 @@ body {
 }
 
 #rodape {
-    float:left;
+    padding-top: 10px;
+    float: left;
+    bottom: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#email {
+    display: inline;
+    padding-left: 2.8em;
+}
+
+#direitos {
+    display: inline;
+    text-align: center;
+    padding-left: 24em;
+}
+
+#telefone {
+    display: inline;
+    padding-left: 24.2em;
 }
 
 h1 {
