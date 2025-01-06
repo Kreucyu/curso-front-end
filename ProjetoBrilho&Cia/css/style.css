@@ -85,11 +85,15 @@ body {
     float: left;
 }
 
+#conteudos {
+    height: 100%;
+    display: flex;
+}
+
 
 #conteudo-fundo {
     background-color: #d3dfe7;
     width: 66%;
-    height: 1130px;
     float: left;
     margin-left: 3%;
     margin-top: 360px;
@@ -99,7 +103,6 @@ body {
 #servicos {
     background-color: #c1cede;
     width: 28%;
-    height: 1130px;
     margin-top: 360px;
     float: right;
     margin-right: 3%;
@@ -112,22 +115,28 @@ body {
     bottom: 0;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    display: flex;
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #email {
     display: inline;
-    padding-left: 2.8em;
+    padding-left: 1em;
 }
 
 #direitos {
     display: inline;
     text-align: center;
-    padding-left: 24em;
+    padding-left: 23.3em;
 }
 
 #telefone {
     display: inline;
     padding-left: 24.2em;
+    padding-right: 0em;
+
 }
 
 h1 {
