@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Railey';
+    src: url(../fonts/Railey-PersonalUse.woff);
+}
+
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/FontsFree-Net-Montserrat-SemiBold.woff);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffd8b4;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #cd7c3a, #ffd8b4)
+}
+
+.title {
+    left: 30px;
+    font-family: 'Railey';
+    font-size: 70px;
+    color: #6b3d00;
+    text-decoration: none;
+    padding: 20px 20px 20px 50px;
+}
+
+#menuH {
+    display: flex;
+    list-style: none;
+    padding-right: 120px;
+}
+
+.menuO {
+    padding: 30px;
+    text-decoration: none;
+    color: #6b3d00;
+    font-family: 'Railey';
+    font-size: 50px;
+    display: flex;
+}
+
+.menuO:hover {
+    text-decoration: none;
+    color: white;
+}
+
+article {
+    padding: 0px 0px 0px 100px;
+    display: flex;
+}
+
+#quad {
+    background: linear-gradient(to bottom, #fff0c9, #ffcea7);
+    color: #6b3d00;
+    font-family: 'Railey';
+    font-size: 40px;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin: 0px 100px 0px 30px;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+img {
+}
+
+
+
+
+
