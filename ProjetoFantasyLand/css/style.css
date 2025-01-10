@@ -85,6 +85,7 @@ p {
     background: #ffcea7;
     width: 1792px;
     margin-top: 30px;
+    max-height: 1850px;
 }
 
 .lateral {
@@ -138,6 +139,7 @@ p {
     color: #6b3d00;
     font-family: 'Ques';
     font-size: 40px;
+    margin-bottom: 70px;
     
 }
 
@@ -147,21 +149,54 @@ p {
     margin-left: 4px;
     margin-bottom: 10px;
     padding-left: 5px;
+    border-radius: 5px;
 }
 
 #em {
     background-color: #fff0c9;
     border: none;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     padding-left: 5px;
+    border-radius: 5px;
 }
 
+#txt {
+    margin-bottom: 40px;
+    cursor: pointer;
+    
+}
+
+#dc {
+    height: 40px;
+    width: 563px;
+    background-color: #fff0c9;
+    border: none;
+    max-width: 563px;
+    max-height: 200px;
+    min-width: 563px;
+    border-radius: 5px;
+    min-height: 40px;
+    }
+
 #sub {
+    margin-top: 25px;
     color: #6b3d00;
     background-color: #fff0c9;
     border:none;
     padding: 3px;
+    cursor: pointer;
 }
+
+label {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    background: linear-gradient(to top, #cd7c3a, #ffd8b4);
+}
+
+
 
 
 
