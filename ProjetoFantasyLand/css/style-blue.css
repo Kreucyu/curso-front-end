@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
     font-family: 'Railey';
     src: url(../fonts/Railey-PersonalUse.woff);
@@ -19,8 +26,14 @@ body {
 
 header {
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8dcfff), to(#eaf6ff));
+    background: -o-linear-gradient(top, #8dcfff, #eaf6ff);
     background: linear-gradient(to bottom, #8dcfff, #eaf6ff);
 }
 
@@ -34,6 +47,8 @@ header {
 }
 
 #menuH {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding-right: 70px;
@@ -45,6 +60,8 @@ header {
     color: #3c3c3c;
     font-family: 'Railey';
     font-size: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -55,10 +72,14 @@ header {
 
 article {
     padding: 0px 0px 0px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 #quad {
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1f9ff), to(#cce9ff));
+    background: -o-linear-gradient(top, #f1f9ff, #cce9ff);
     background: linear-gradient(to bottom, #f1f9ff, #cce9ff);
     color: #3c3c3c;
     font-family: 'Railey';
@@ -168,14 +189,15 @@ p {
 
 #dc {
     height: 40px;
-    width: 563px;
+    width: 558px;
     background-color: #eaf6ff;
     border: none;
-    max-width: 563px;
+    max-width: 558px;
     max-height: 200px;
-    min-width: 563px;
+    min-width: 558px;
     border-radius: 5px;
     min-height: 40px;
+    padding-left: 5px;
     }
 
 #sub {
@@ -192,7 +214,11 @@ label {
 }
 
 footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    background: -webkit-gradient(linear, left bottom, left top, from(#8dcfff), to(#eaf6ff));
+    background: -o-linear-gradient(bottom, #8dcfff, #eaf6ff);
     background: linear-gradient(to top, #8dcfff, #eaf6ff);
     padding-left: 1107px;
     font-family: 'Ques';
@@ -201,7 +227,6 @@ footer {
     margin-top: auto;
     padding-top: 40px;
 }
-
 
 
 
