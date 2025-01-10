@@ -50,7 +50,7 @@ header {
 
 .menuO:hover {
     text-decoration: none;
-    color: white;
+    color: #ffcea7;
 }
 
 article {
@@ -194,8 +194,13 @@ label {
 footer {
     display: flex;
     background: linear-gradient(to top, #cd7c3a, #ffd8b4);
+    padding-left: 1107px;
+    font-family: 'Ques';
+    color: #6b3d00;
+    font-size: 25px;
+    margin-top: auto;
+    padding-top: 40px;
 }
-
 
 
 
